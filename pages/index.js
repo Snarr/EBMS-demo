@@ -38,6 +38,12 @@ export default function Home() {
         >
           Send to server
         </button>
+        <br></br>
+        <button
+          onClick={() => window.open("/billboard")}
+        >
+          Billboard
+        </button>
       </div>
     </div>
   )

@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import styles from '../styles/Billboard.module.css';
 import { useState, useEffect } from 'react'
 
 
@@ -21,7 +22,7 @@ export default function Billboard() {
   }
 
   return (
-    <img src={image}></img>
-    
+    <img id="billboard" src={image}></img>
+
   )
 }
